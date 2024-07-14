@@ -12,7 +12,7 @@ resource demo 'Applications.Core/containers@2023-10-01-preview' = {
       image: 'ghcr.io/radius-project/samples/demo:latest'
       ports: {
         web: {
-          containerPort: 3002
+          containerPort: 3003
         }
       }
     }
