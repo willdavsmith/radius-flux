@@ -12,7 +12,7 @@ resource fluxdemo 'Applications.Core/containers@2023-10-01-preview' = {
       image: 'ghcr.io/radius-project/samples/demo:latest'
       ports: {
         web: {
-          containerPort: 3008
+          containerPort: 3009
         }
       }
     }
